@@ -1,6 +1,6 @@
 cask "futo-backups" do
-  version "1.20.1"
-  sha256 "8a8912564bd4276cfcea692b9c20c086d64822a4d6fb27c218c4c349b31f192b"
+  version "1.21.0"
+  sha256 "91c64db4fb82c7ea529a9cc0233b87c48b2b95acb55ff3b2c14720a91c6df51f"
 
   url "https://github.com/futo-org/backups/releases/download/macos-v#{version}/FUTO-Backups-#{version}.zip"
   name "FUTO Backups"
@@ -13,7 +13,7 @@ cask "futo-backups" do
   end
 
   auto_updates true
-  depends_on macos: :sequoia
+  depends_on macos: :tahoe
 
   app "FUTO Backups.app"
 
@@ -33,7 +33,7 @@ cask "futo-backups" do
     #{token} is alpha software.
 
     Uninstalling, even with --zap, leaves its sign-in and recovery key in the login
-    keychain under "org.futo.backups.mac". To remove them, use Settings > Reset This Mac
+    keychain under "org.futo.backups.mac". To remove them, use Settings > Unlink This Mac
     in the app before uninstalling, or delete them in Keychain Access.
   EOS
 end
