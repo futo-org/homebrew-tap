@@ -1,6 +1,6 @@
 cask "futo-backups" do
-  version "1.22.0"
-  sha256 "9c4a4583ceeb6332139032558c62a0575f25513bfb846b9856dcc740462ebda7"
+  version "1.23.0"
+  sha256 "63def65b86b7bc4ddd254f20ca0ba73f4401fc9c84e28bb4a25dfc7a839916ac"
 
   url "https://github.com/futo-org/backups/releases/download/macos-v#{version}/FUTO-Backups-#{version}.zip"
   name "FUTO Backups"
